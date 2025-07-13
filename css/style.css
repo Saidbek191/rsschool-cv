@@ -124,24 +124,76 @@ h1 {
 .knowledge__item{
 	color: #FAFAFA;
 
-font-family: Calibri;
+font-family: Carlito;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 18px;
 margin-inline: 28px;
 }
-.languages{}
+.languages{
+	width: 260px;
+	height: 87px;
+	flex-shrink: 0;
+	border-radius: 10px;
+	background: rgba(196, 196, 196, 0.35);
+	margin: 20px 18px;
+	padding: 8px 0 0 10px;
+}
 
-.persian__lang{}
-.russian__lang{}
-.english__lang{}
+.persian__lang,
+.russian__lang,
+.english__lang{
+	display: flex;
+	gap: 16px;
+	padding-inline: 20px;
+}
+.languages > h2 {
+	color: #FFF;
+	padding-inline: 20px;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
+}
+
 .languages,
-.lang{}
+.lang{
+	color: #FAFAFA;
+	font-family: Carlito;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+}
 
-.social{}
-.social__title{}
-.social__link{}
+.social{
+	width: 260px;
+	height: 80px;
+	flex-shrink: 0;
+	border-radius: 10px;
+	background: rgba(196, 196, 196, 0.35);
+	padding-inline: 28px;
+	margin-inline: 18px;
+}
+.social__title{
+	color: #FFF;
+	padding: 8px 0 0 0;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+}
+.social__link{
+	color: #FFF;
+	font-family: Carlito;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
 
 .hobbies{}
 .hobbies__read{}
