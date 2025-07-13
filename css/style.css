@@ -10,6 +10,10 @@ body {
 	background-color: #CECACA;
 }
 
+.about-me {
+	padding: 10px 18px;
+}
+
 .wrapper {
 	max-width: 1080px;
 	margin: 0 auto;
@@ -71,7 +75,7 @@ h1 {
 .contacts__discord,
 .contacts__github,
 .contacts__location{
-	width: 260px;
+	/* width: 260px; */
 	height: 38px;
 	flex-shrink: 0;
 	border-radius: 10px;
@@ -104,8 +108,8 @@ h1 {
 .location__contact{}
 .knowledge{
 	margin: 0 18px;
-	width: 260px;
-	height: 240px;
+	/* width: 260px; */
+	height: 160px;
 	flex-shrink: 0;
 	border-radius: 10px;
 	background: rgba(196, 196, 196, 0.35);
@@ -116,23 +120,23 @@ h1 {
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 18px;
 	padding: 10px 0 0 28px;
 }
-.knowledge__list{}
-.knowledge__list-items{}
+.knowledge__list{
+	line-height: 30px;
+
+}
 .knowledge__item{
 	color: #FAFAFA;
-
-font-family: Carlito;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 18px;
-margin-inline: 28px;
+	font-family: Carlito;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+	margin-inline: 28px;
 }
 .languages{
-	width: 260px;
+	/* width: 260px; */
 	height: 87px;
 	flex-shrink: 0;
 	border-radius: 10px;
@@ -169,7 +173,7 @@ margin-inline: 28px;
 }
 
 .social{
-	width: 260px;
+	/* width: 260px; */
 	height: 80px;
 	flex-shrink: 0;
 	border-radius: 10px;
@@ -193,13 +197,14 @@ margin-inline: 28px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 20px;
+	text-align: left;
 }
 
 .hobbies{
 	display: flex;
 	padding: 20px 0 0 0;
 	justify-content: center;
-	gap: 18px;
+	gap: 40px;
 }
 .hobbie__title {
 	color: #FFF;
@@ -236,26 +241,114 @@ p{
 
 
 .education-and-skill{
-	width: 321px;
-	height: 830px;
+	/* width: 321px; */
+	flex: 1 0 auto;
 	flex-shrink: 0;
 	border-radius: 10px;
 	background: #FFF;
+	padding: 20px 14px 30px 14px;
 }
 .experience{}
-.experience img{}
-.row-box{}
-.box__title{}
-.title{}
-.line{}
+.experience img{
+	margin: auto 60px;
+	width: 100%;
+	max-width: 500px;
+}
+.row-box{
 
-.self-education{}
+}
+.box__title{
+	width: 154px;
+	height: 24px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	background: #545454;
+	padding-top: 4px;
+	margin: 12px 0 12px 0;
+}
+.title{
+	text-align: center;
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+.line{
+	width: 30%;
+	height: 2px;
+	background-color: #545454;
+	/* margin: 20px 0; */
+	position: relative;
+	bottom: 24px;
+	left: 26%;
+}
 
-.column-box{}
-.column-box h4{}
+.self-education {
+	text-align: left;
+}
 
-.circle{}
-.backdrop{}
-.backdrop img{}
+.self-education p{
+	color: #343434;
+	font-family: Carlito;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
+	display: inline-block;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+.column-box{
+	margin: 20px 0 0 0	;
+	width: 320px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+.column-box h4{
+	color: #545454;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 18px;
+}
+
+.circle{
+ width: 56px;
+	height: 56px;
+	flex-shrink: 0;
+  border-radius: 50%;
+  border: 4px solid #3B5999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+.backdrop{
+	width: 44px;
+height: 44px;
+flex-shrink: 0;
+background-color: rgba(196, 196, 196, 0.40);
+border-radius: 50%;
+}
+.backdrop  img{
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+.backdrop svg {
+	position: relative;
+	
+}
 
 .skill__title{}
