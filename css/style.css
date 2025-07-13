@@ -2,4 +2,153 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	color: inherit;
 }
+
+body {
+	background-color: #CECACA;
+}
+
+.wrapper {
+	max-width: 1080px;
+	margin: 0 auto;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.71) 0%, rgba(243, 156, 18, 0.79) 93.75%);
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+header img {
+	width: 120px;
+	height: 120px;
+	flex-shrink: 0;
+	border-radius: 93px;
+	background: url(/images/main-photo.jpg) no-repeat;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+.second-name{
+	color: #CECACA;
+	font-family: Montserrat;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+header {
+	display: flex;
+	gap: 35px;
+	text-align: center;
+}
+
+h1 {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+.sub-title{
+	color: #CECACA;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.contacts{
+	padding: 20px 18px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.contacts__email,
+.contacts__discord,
+.contacts__github,
+.contacts__location{
+	width: 260px;
+	height: 38px;
+	flex-shrink: 0;
+	border-radius: 10px;
+	background: rgba(196, 196, 196, 0.35);
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	padding-inline: 20px;
+	gap: 40px;
+	color: #FFF;
+
+	font-family: Carlito;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.contacts__email img{
+}
+.email__contact{
+	text-align: start;
+}
+.contacts__discord {}
+.contacts__discord img{}
+.discord__contact{}
+{}
+.contacts__github img{}
+.github__contact{}
+{}
+.contacts__location img{}
+.location__contact{}
+.knowledge{}
+.knowledge__list{}
+.knowledge__list-items{}
+.knowledge__item{}
+.languages{}
+
+.persian__lang{}
+.russian__lang{}
+.english__lang{}
+.languages,
+.lang{}
+
+.social{}
+.social__title{}
+.social__link{}
+
+.hobbies{}
+.hobbies__read{}
+.hobbies__read img{}
+.hobbies__read p{}
+
+.hobbie__basketball{}
+.hobbie__basketball img{}
+.hobbie__basketball p{}
+
+.hobbie__barbell{}
+.hobbie__barbell img{}
+.hobbie__barbell p{}
+
+
+.education-and-skill{}
+.experience{}
+.experience img{}
+.row-box{}
+.box__title{}
+.title{}
+.line{}
+
+.self-education{}
+
+.column-box{}
+.column-box h4{}
+
+.circle{}
+.backdrop{}
+.backdrop img{}
+
+.skill__title{}
