@@ -1,92 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Carlito:regular,700" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700" rel="stylesheet" />
-	<title>CV</title>
-</head>
-	<body>
-		<div class="wrapper">
-			<header>
-				<img src="/images/main-photo.jpg" alt="avatar">
-				<h1 class="full-name">Kodirov Saidbek</h1>
-				<h3 class="sub-title">Junior Frontend developer</h3>
-			</header>
-			<section class="contacts">
-				<div class="contacts__email">
-					<img src="/images/icons/about-me/contacts/mdi_mail.svg" alt="email">
-					<p class="email__contact">qodirovsk@gmail.com</p>
-				</div>
-				<div class="contacts__discord">
-					<img src="/images/icons/about-me/contacts/discord.svg" alt="discord">
-					<p class="discord__contact">@Saidbek191</p>
-				</div>
-				<div class="contacts__github">
-					<img src="/images/icons/about-me/contacts/earth.png" alt="github">
-					<a href="https://github.com/Saidbek191" class="github__contact">github.com</a>
-				</div>
-				<div class="contacts__location">
-					<img src="/images/icons/about-me/contacts/location_on.svg" alt="location">
-					<p class="location__contact">Poland / Warsaw</p>
-				</div>
-			</section>
-			<section class="knowledge">
-				<nav class="knowledge__list">
-					<ul class="knowledge__list-items">
-						Industry knowledge
-						<li class="knowledge__item">Semantic HTML structure</li>
-						<li class="knowledge__item">BEM methodology / CSS Modules / SCSS</li>
-						<li class="knowledge__item">Writing clean and maintainable code</li>
-						<li class="knowledge__item">Responsive and cross-browser layout</li>
-						<li class="knowledge__item">Git version control (branching, merging, pull requests)</li>
-						<li class="knowledge__item">Working with Figma designs (basic layout interpretation)</li>
-					</ul>
-				</nav>
-			</section>
-			<section class="languages">
-				<div class="persian__lang">
-					<p>Persian</p>
-					<img src="/images/icons/about-me/language/circle.svg" alt="circle">
-				</div>
-				<div class="russian__lang">
-					<p>Russian</p>
-					<img src="/images/icons/about-me/language/circle2.svg" alt="circle2">
-				</div>
-				<div class="english__lang">
-					<p>English</p>
-					<img src="/images/icons/about-me/language/circle3.svg" alt="circle3">
-				</div>
-			</section>
-			<section class="social">
-				<h3 class="social__title">Social</h3>
-				<p class="social__link">
-					<a href="https://www.linkedin.com/in/saidbek-kodirov-246994300/">linkedin.com</a>
-				</p>
-				<p class="social__link">
-					<a href="https://github.com/Saidbek191">github.com</a>
-				</p>
-			</section>
-			<section class="hobbies">
-				<div class="hobbie__read">
-					<img src="/images/icons/about-me/hobbie/reading.svg" alt="book">
-					<p>Reading</p>
-				</div>
-				<div class="hobbie__piano">
-					<img src="/images/icons/about-me/hobbie/piano.png" alt="piano">
-					<p>Piano</p>
-				</div>
-				<div class="hobbie__basketball">
-					<img src="/images/icons/about-me/hobbie/basketball-player.png" alt="basketball">
-					<p>Basketball</p>
-				</div>
-				<div class="hobbie__barbell">
-					<img src="/images/icons/about-me/hobbie/barbell.png" alt="barbell">
-					<p>Fitness</p>
-				</div>
-			</section>
-		</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Carlito:regular,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700"
+      rel="stylesheet"
+    />
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="about-me">
+        <header>
+          <img src="/images/main-photo.jpg" alt="avatar" />
+          <h1 class="full-name">Kodirov Saidbek</h1>
+          <h3 class="sub-title">Junior Frontend developer</h3>
+        </header>
+        <article class="contacts">
+          <div class="contacts__email">
+            <img
+              src="/images/icons/about-me/contacts/mdi_mail.svg"
+              alt="email"
+            />
+            <p class="email__contact">qodirovsk@gmail.com</p>
+          </div>
+          <div class="contacts__discord">
+            <img
+              src="/images/icons/about-me/contacts/discord.svg"
+              alt="discord"
+            />
+            <p class="discord__contact">@Saidbek191</p>
+          </div>
+          <div class="contacts__github">
+            <img src="/images/icons/about-me/contacts/earth.png" alt="github" />
+            <a href="https://github.com/Saidbek191" class="github__contact"
+              >github.com</a
+            >
+          </div>
+          <div class="contacts__location">
+            <img
+              src="/images/icons/about-me/contacts/location_on.svg"
+              alt="location"
+            />
+            <p class="location__contact">Poland / Warsaw</p>
+          </div>
+        </article>
+        <article class="knowledge">
+          <nav class="knowledge__list">
+            <h3>Industry knowledge</h3>
+            <ul class="knowledge__list-items">
+              <li class="knowledge__item">Semantic HTML structure</li>
+              <li class="knowledge__item">
+                BEM methodology / CSS Modules / SCSS
+              </li>
+              <li class="knowledge__item">
+                Writing clean and maintainable code
+              </li>
+              <li class="knowledge__item">
+                Responsive and cross-browser layout
+              </li>
+              <li class="knowledge__item">
+                Git version control (branching, merging, pull requests)
+              </li>
+              <li class="knowledge__item">
+                Working with Figma designs (basic layout interpretation)
+              </li>
+            </ul>
+          </nav>
+        </article>
+        <article class="languages">
+          <div class="persian__lang">
+            <p>Persian</p>
+            <img
+              src="/images/icons/about-me/language/circle.svg"
+              alt="circle"
+            />
+          </div>
+          <div class="russian__lang">
+            <p>Russian</p>
+            <img
+              src="/images/icons/about-me/language/circle2.svg"
+              alt="circle2"
+            />
+          </div>
+          <div class="english__lang">
+            <p>English</p>
+            <img
+              src="/images/icons/about-me/language/circle3.svg"
+              alt="circle3"
+            />
+          </div>
+        </article>
+        <article class="social">
+          <h3 class="social__title">Social</h3>
+          <p class="social__link">
+            <a href="https://www.linkedin.com/in/saidbek-kodirov-246994300/"
+              >linkedin.com</a
+            >
+          </p>
+          <p class="social__link">
+            <a href="https://github.com/Saidbek191">github.com</a>
+          </p>
+        </article>
+        <article class="hobbies">
+          <div class="hobbie__read">
+            <img src="/images/icons/about-me/hobbie/reading.svg" alt="book" />
+            <p>Reading</p>
+          </div>
+          <div class="hobbie__piano">
+            <img src="/images/icons/about-me/hobbie/piano.png" alt="piano" />
+            <p>Piano</p>
+          </div>
+          <div class="hobbie__basketball">
+            <img
+              src="/images/icons/about-me/hobbie/basketball-player.png"
+              alt="basketball"
+            />
+            <p>Basketball</p>
+          </div>
+          <div class="hobbie__barbell">
+            <img
+              src="/images/icons/about-me/hobbie/barbell.png"
+              alt="barbell"
+            />
+            <p>Fitness</p>
+          </div>
+        </article>
+      </section>
+      <section class="education-and-skill">
+        <article class="experience">
+          <div class="row-box">
+            <div class="box__title">
+              <h2 class="title">Experience</h2>
+            </div>
+            <span class="line"></span>
+          </div>
+          <img
+            src="/images/icons/education-and-skills/experience/js-pract.jpg"
+            alt="photo"
+          />
+        </article>
+      </section>
+    </div>
+  </body>
 </html>
