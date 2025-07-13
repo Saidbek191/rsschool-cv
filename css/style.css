@@ -66,16 +66,25 @@ h1 {
 	line-height: normal;
 }
 .contacts{
-	padding: 20px 18px;
+	padding: 20px 0;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
+
+.contacts h2 {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	padding: 10px 0 0 28px;
+}
+
 .contacts__email,
 .contacts__discord,
 .contacts__github,
 .contacts__location{
-	/* width: 260px; */
 	height: 38px;
 	flex-shrink: 0;
 	border-radius: 10px;
@@ -92,22 +101,13 @@ h1 {
 	font-weight: 400;
 	line-height: normal;
 }
-.contacts__email img{
-}
+
 .email__contact{
 	text-align: start;
 }
-.contacts__discord {}
-.contacts__discord img{}
-.discord__contact{}
 
-.contacts__github img{}
-.github__contact{}
-
-.contacts__location img{}
-.location__contact{}
 .knowledge{
-	margin: 0 18px;
+	/* margin: 0 18px; */
 	/* width: 260px; */
 	height: 160px;
 	flex-shrink: 0;
@@ -136,12 +136,11 @@ h1 {
 	margin-inline: 28px;
 }
 .languages{
-	/* width: 260px; */
 	height: 87px;
 	flex-shrink: 0;
 	border-radius: 10px;
 	background: rgba(196, 196, 196, 0.35);
-	margin: 20px 18px;
+	margin: 20px 0;
 	padding: 8px 0 0 10px;
 }
 
@@ -152,6 +151,7 @@ h1 {
 	gap: 16px;
 	padding-inline: 20px;
 }
+
 .languages > h2 {
 	color: #FFF;
 	padding-inline: 20px;
@@ -173,13 +173,12 @@ h1 {
 }
 
 .social{
-	/* width: 260px; */
 	height: 80px;
 	flex-shrink: 0;
 	border-radius: 10px;
 	background: rgba(196, 196, 196, 0.35);
 	padding-inline: 28px;
-	margin-inline: 18px;
+	/* margin-inline: 18px; */
 }
 .social__title{
 	color: #FFF;
@@ -200,12 +199,13 @@ h1 {
 	text-align: left;
 }
 
-.hobbies{
+.hobbies-wrrap{
 	display: flex;
-	padding: 20px 0 0 0;
+	padding: 20px 0;
 	justify-content: center;
 	gap: 40px;
 }
+
 .hobbie__title {
 	color: #FFF;
 	font-family: Montserrat;
@@ -219,12 +219,10 @@ h1 {
 	flex-shrink: 0;
 	border-radius: 10px;
 	background: rgba(196, 196, 196, 0.35);
-	margin: 15px 20px;
+	margin: 15px 0;
 	text-align: center;
 }
-.hobbies__read{
-}
-.hobbies__read img{}
+
 .hobbies__read,
 .hobbie__basketball,
 .hobbie__barbell,
@@ -238,25 +236,31 @@ p{
 	text-align: center;
 }
 
-
-
 .education-and-skill{
-	/* width: 321px; */
 	flex: 1 0 auto;
 	flex-shrink: 0;
 	border-radius: 10px;
 	background: #FFF;
 	padding: 20px 14px 30px 14px;
 }
-.experience{}
+
+.education-and-skill > h2 {
+	text-align: center;
+	color: #343434;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+
 .experience img{
 	margin: auto 60px;
 	width: 100%;
 	max-width: 500px;
 }
-.row-box{
 
-}
 .box__title{
 	width: 154px;
 	height: 24px;
@@ -280,7 +284,6 @@ p{
 	width: 30%;
 	height: 2px;
 	background-color: #545454;
-	/* margin: 20px 0; */
 	position: relative;
 	bottom: 24px;
 	left: 26%;
@@ -303,14 +306,15 @@ p{
 }
 
 .column-box{
-	margin: 20px 0 0 0	;
+	margin: 20px 0 0 0;
 	width: 320px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 10px;
+	gap: 30px;
 	flex-wrap: wrap;
 }
+
 .column-box h4{
 	color: #545454;
 	font-family: Montserrat;
@@ -320,35 +324,29 @@ p{
 	line-height: 18px;
 }
 
-.circle{
- width: 56px;
-	height: 56px;
-	flex-shrink: 0;
-  border-radius: 50%;
-  border: 4px solid #3B5999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: bold;
-  color: #333;
-}
-.backdrop{
-	width: 44px;
-height: 44px;
-flex-shrink: 0;
-background-color: rgba(196, 196, 196, 0.40);
-border-radius: 50%;
-}
-.backdrop  img{
-	position: relative;
-	top: 10px;
-	left: 20px;
+.circle-wrrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
 }
 
-.backdrop svg {
-	position: relative;
-	
+.footer {
+	display: flex;
+	justify-content: center;
+	background-color: orangered;
+	align-items: center;
+	gap: 40px;
+		color: #545454;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 18px;
+	line-height: 18px;
 }
 
-.skill__title{}
+.logo {
+	width: 100px;
+	height: 100px;
+}
