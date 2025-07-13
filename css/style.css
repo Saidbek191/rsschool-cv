@@ -195,21 +195,53 @@ margin-inline: 28px;
 	line-height: 20px;
 }
 
-.hobbies{}
-.hobbies__read{}
+.hobbies{
+	display: flex;
+	padding: 20px 0 0 0;
+	justify-content: center;
+	gap: 18px;
+}
+.hobbie__title {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
+	padding-top: 8px;
+	width: 88px;
+	height: 32px;
+	flex-shrink: 0;
+	border-radius: 10px;
+	background: rgba(196, 196, 196, 0.35);
+	margin: 15px 20px;
+	text-align: center;
+}
+.hobbies__read{
+}
 .hobbies__read img{}
-.hobbies__read p{}
+.hobbies__read,
+.hobbie__basketball,
+.hobbie__barbell,
+p{
+	color: #E5E5E5;
+	font-family: Montserrat;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
+	text-align: center;
+}
 
-.hobbie__basketball{}
-.hobbie__basketball img{}
-.hobbie__basketball p{}
-
-.hobbie__barbell{}
-.hobbie__barbell img{}
-.hobbie__barbell p{}
 
 
-.education-and-skill{}
+.education-and-skill{
+	width: 321px;
+	height: 830px;
+	flex-shrink: 0;
+	border-radius: 10px;
+	background: #FFF;
+}
 .experience{}
 .experience img{}
 .row-box{}
