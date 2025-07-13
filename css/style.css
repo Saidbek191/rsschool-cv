@@ -107,8 +107,6 @@ h1 {
 }
 
 .knowledge{
-	/* margin: 0 18px; */
-	/* width: 260px; */
 	height: 160px;
 	flex-shrink: 0;
 	border-radius: 10px;
@@ -178,7 +176,6 @@ h1 {
 	border-radius: 10px;
 	background: rgba(196, 196, 196, 0.35);
 	padding-inline: 28px;
-	/* margin-inline: 18px; */
 }
 .social__title{
 	color: #FFF;
